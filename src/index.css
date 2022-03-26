@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8vh;
+}
+body {
+    background-color: beige;
+    width: 70%;
+    margin: auto;
+}
+
+.socials-banner {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+}
+.socials-logo {
+    background-image: url("../pics/logo.png");
+    background-size: 100%;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+}
+.socials-buttons {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.socials-link {
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.facebook {
+    background-image: url("../pics/facebook-logo.png");
+}
+.instagram {
+    background-image: url("../pics/insta-logo.png");
+}
+.twitter {
+    background-image: url("../pics/twitter-logo.png");
+}
+.youtube {
+    background-image: url("../pics/youtube-logo.jpg");
+}
+.phone-num-wrapper {
+    margin-right: 20px;
+}
+.phone-num {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+header {
+    margin: auto;
+    background-image: url("../pics/banner.jpg");
+    background-position: center;
+    background-position-y: -300px;
+    background-size: 100%;
+    margin-top: 4%;
+    height: 40vh;
+    width: 100%;
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-size: 6rem;
+    color: rgb(0, 0, 75);
+    text-shadow: white 2px 2px 7px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: none;
+    padding: none;
+}
+nav {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    margin: auto 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    background-color: aquamarine;
+    text-align: center;
+    height: 40px;
+}
+nav a:hover {
+    background-color: aqua;
+}
+
+#about {
+    margin: 5% auto;
+    border: 1px solid black;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#about img {
+    width: 40%;
+}
+#about div {
+    width: 56%;
+    background-color: red;
+}
+
+
+#dogs-wrapper {
+    margin: 5% auto;
+    background-color: green;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-wrapper {
+    background-color: pink;
+    margin: 5% 5%;
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-image {
+    width: 65%;
+    margin-bottom: 5%;
+}
+.card-text-wrapper {
+
+}
+.card-text-wrapper p {
+
+}
+
+#our-dogs {
+    margin: 5% auto;
+    width: 100%;
+    height: 15vh;
+    background-color: red;
+}
