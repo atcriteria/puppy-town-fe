@@ -22,7 +22,7 @@ body {
     background-color: burlywood;
 }
 .socials-logo {
-    background-image: url("../public/images/logo.png");
+    background-image: url("./logo.png");
     background-size: 100%;
     margin: 0 10px;
     width: 50px;
@@ -42,16 +42,16 @@ body {
     margin: 0 5px;
 }
 .facebook {
-    background-image: url("../public/images/facebook-logo.png");
+    background-image: url("./facebook-logo.png");
 }
 .instagram {
-    background-image: url("../public/images/insta-logo.png");
+    background-image: url("./insta-logo.png");
 }
 .twitter {
-    background-image: url("../public/images/twitter-logo.png");
+    background-image: url("./twitter-logo.png");
 }
 .youtube {
-    background-image: url("../public/images/youtube-logo.jpg");
+    background-image: url("./youtube-logo.jpg");
 }
 .phone-num-wrapper {
     margin-right: 20px;
@@ -64,7 +64,7 @@ body {
 
 header {
     margin: auto;
-    background-image: url("../public/images/banner.jpg");
+    background-image: url("./banner.jpg");
     background-position: center;
     background-position-y: -300px;
     background-size: 100%;
