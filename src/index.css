@@ -14,19 +14,16 @@ body {
     top: 0;
     left: 15%;
     width: 70%;
-    height: 60px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: burlywood;
 }
-.socials-logo {
-    background-image: url("./logo.png");
-    background-size: 100%;
-    margin: 0 10px;
-    width: 50px;
-    height: 50px;
+#pt-logo {
+    width: 80px;
+    height: 80px;
 }
 .socials-buttons {
     width: 30%;
@@ -68,7 +65,7 @@ header {
     background-position: center;
     background-position-y: -300px;
     background-size: 100%;
-    margin-top: 4%;
+    margin-top: 100px;
     height: 40vh;
     width: 100%;
     background-color:yellowgreen;
@@ -78,8 +75,9 @@ header {
 }
 header h1 {
     font-size: 6rem;
-    color: rgb(0, 0, 75);
-    text-shadow: white 2px 2px 7px;
+    font-family: 'Indie Flower', cursive;
+    color: #c2f666;
+    text-shadow: darkblue 2px 2px 7px;
     text-decoration: underline;
     text-transform: uppercase;
     margin: none;
@@ -161,4 +159,39 @@ nav a:hover {
     width: 100%;
     height: 15vh;
     background-color: red;
+}
+
+#location-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#location-text {
+    width: 40%;
+}
+#location-text h2 {
+    font-size: 2rem;
+    margin: 5% auto auto 2.5%;
+}
+#location-text h1 {
+    font-size: 3.4rem;
+    margin: 5% auto 5% 4%;
+    text-indent: 48px;
+    line-height: 4.4rem;
+}
+.mapouter {
+    width: 50%;
+}
+.gmap_canvas {
+    width: 100%;
+}
+.gmap_canvas iframe {
+    width: 100%;
+    height: 50vh;
+}
+
+footer {
+    height: 30vh;
 }
